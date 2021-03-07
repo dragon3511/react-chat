@@ -287,10 +287,7 @@ export default class Chat extends React.Component {
                 showToast={this.props.showToast}
               />
             ) : (
-              <WelcomeBoard
-                currentUserName={this.currentUserName}
-                currentUserPhoto={this.currentUserPhoto}
-              />
+              <WelcomeBoard />
             )}
           </div>
         </div>
